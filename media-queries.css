@@ -1,0 +1,389 @@
+/* Large devices between tablet and (desktops) */
+@media only screen and (max-width : 2560px) {
+    html {
+        font-size: 180%;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    html {
+        font-size: 75%;
+    }
+
+    #index-PCD {
+        height: 25rem;
+    }
+
+
+    .small-logo {
+
+        height: 15rem;
+        width: 15rem;
+        margin-top: 3rem;
+
+    }
+
+    #form-page5 .form-group input[type="submit"] {
+        padding: 0.8rem 9rem;
+    }
+
+    #form-page5 {
+        height: 28rem;
+        width: 20rem;
+    }
+
+
+
+
+
+
+
+
+}
+
+/* Medium devices (tablets) */
+@media only screen and (max-width: 769px) {
+
+
+
+
+    /* .navBar { */
+    /* display: none; */
+    /* width: 100%;
+    height: 100vh;
+    background-color: #F66709;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+        
+    
+    
+}
+ */
+
+
+
+
+    #index-PCD {
+        height: 30rem;
+    }
+
+
+    html {
+        font-size: 55%;
+    }
+
+    /* .mobile-navbar-btn {
+            display: block;
+            z-index: 999;
+            color: black;
+            font-size: 3rem;
+            border: 2px solid black;
+        }
+
+        .header {
+            width: 40%;
+        } */
+
+
+    .child1 {
+        font-size: 1.2rem;
+    }
+
+    .child4 {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+    .small-logo {
+
+        height: 20rem;
+        width: 20rem;
+        mix-blend-mode: darken;
+
+    }
+
+    #form-page5 {
+        height: 31rem;
+        width: 25rem;
+
+    }
+
+
+    #form-page5 .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+
+        padding: 5px;
+
+    }
+
+    #form-page5 .form-group input[type="submit"] {
+        padding: 0.8rem 10.8rem;
+    }
+
+
+    iframe {
+        display: none;
+    }
+
+
+
+    .child10 {
+        width: 100%;
+        margin-left: 3rem;
+        border: 2px black;
+        margin-top: 2rem;
+        text-align: start;
+
+
+    }
+
+}
+
+
+
+/* Small devices (phones) */
+@media only screen and (max-width: 575px) {
+
+
+
+    html {
+        font-size: 45%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .Nav1 {
+        height: 3rem;
+    }
+
+    .nav1-left marquee {
+        margin-top: 0.3rem;
+        width: 30rem;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .nav1-right {
+        display: none;
+    }
+
+    /* .left-section {
+        margin-top: 0.5rem;
+    } */
+
+    .middle-section {
+        display: none;
+    }
+
+    #index-PCD {
+        height: 15rem;
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+
+    }
+
+    .mySlides img {
+        height: 20rem;
+    }
+
+    .secondSection {
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-container {
+        max-width: 80%;
+        margin-top: 1rem;
+    }
+
+    .subscription-section {
+        display: none;
+
+    }
+
+    .foot-panel2 {
+        margin-top: 2rem;
+
+    }
+
+    .foot-panel2 ul a {
+        margin-top: 5px;
+
+    }
+
+    .foot-panel2 ul {
+        padding-bottom: 1rem;
+    }
+
+
+    .foot-panel4 {
+        height: auto;
+    }
+
+    .pages {
+
+        padding-top: 5px;
+
+    }
+
+    .copyright {
+        padding-bottom: 5px;
+
+    }
+
+
+
+
+    #about-info p {
+        max-width: 80%;
+    }
+
+    #brand {
+        font-size: 1.5rem;
+    }
+
+    #below-heading {
+        border-style: none;
+        height: 0px;
+        border: 0.1px solid black;
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .child1 {
+        width: 90%;
+    }
+
+    .child2 {
+        width: 90%;
+        margin-left: 5%;
+        height: 25rem;
+        margin-right: 5%;
+        margin-top: 2rem;
+        display: none;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+
+
+    .form-group {
+        margin-bottom: 0.2rem;
+
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-group textarea {
+        height: 2rem;
+    }
+
+    .form-group input[type="submit"] {
+        padding: 3px 30px;
+        font-size: 1rem;
+    }
+
+    .child3 img {
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .child3 {
+        margin: 0;
+    }
+
+    .child4 h3 {
+        margin-bottom: 0;
+    }
+
+    .child4 {
+        line-height: 1.5rem;
+        width: 50rem;
+        margin-left: 5%;
+        display: none;
+
+    }
+
+    .small-logo {
+        display: none;
+    }
+
+
+    #form-page5 {
+        width: 33rem;
+        height: 22rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+    #form-page5 .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        width: 100%;
+        padding: 0.01rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    #form-pages5 .form-group {
+        margin-bottom: 1px;
+
+    }
+
+    #form-pages5 h2 {
+        color: white;
+    }
+
+
+
+
+
+
+
+}
