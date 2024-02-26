@@ -179,9 +179,56 @@
         font-size: 45%;
     }
 
+
     .nav-list {
+        flex-direction: column;
+        width: 92.5%;
+        margin-right: 0;
+        position: absolute;
+        z-index: 1;
+        top: 1.6rem;
+        background-color: #F66709;
+        height: 30rem;
+        border-radius: 0;
+        overflow: hidden;
+
+    }
+
+    .innerUl {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+
+    .burger {
+        display: block;
+        z-index: 2;
+    }
+
+    .h-nav {
+        height: 6rem;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .nav-list ul {
+        margin-top: 10rem;
+    }
+
+    .nav-list li {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .nav-list i {
         display: none;
     }
+
+
 
     .Nav1 {
         height: 3rem;
