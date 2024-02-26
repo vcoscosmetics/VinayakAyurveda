@@ -69,7 +69,6 @@ hr {
   align-items: center;
   color: white;
   width: 100%;
-  height: auto;
 }
 
 
@@ -93,6 +92,7 @@ hr {
   list-style: none;
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 2rem;
+  transition: 0.7s ease-in-out;
 
 }
 
@@ -122,22 +122,23 @@ hr {
 }
 
 
-
-
-.hamburger {
+.burger {
   display: none;
+  position: absolute;
   cursor: pointer;
+  right: 2%;
+  top: 3;
 }
 
-.bar {
-  display: block;
+.line {
   width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: black;
+  height: 4px;
+  background-color: #006768;
+  margin: 3px 3px;
 }
+
+
+
 
 
 
