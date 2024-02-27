@@ -50,42 +50,6 @@
 /* Medium devices (tablets) */
 @media only screen and (max-width: 769px) {
 
-
-
-
-    /* .navBar { */
-    /* display: none; */
-    /* width: 100%;
-    height: 100vh;
-    background-color: #F66709;
-    position: absolute;
-    z-index: 999;
-    top: 0;
-    left: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    transform: translateX(100%);
-    transition: all 0.5s linear;
-
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-
-        
-    
-    
-}
- */
-
-
-
-
     #index-PCD {
         height: 30rem;
     }
@@ -117,11 +81,6 @@
     }
 
 
-
-
-
-
-
     .small-logo {
 
         height: 20rem;
@@ -150,9 +109,9 @@
     }
 
 
-    iframe {
+    /* iframe {
         display: none;
-    }
+    } */
 
 
 
@@ -171,7 +130,7 @@
 
 
 /* Small devices (phones) */
-@media only screen and (max-width: 575px) {
+@media (max-width: 575px) {
 
 
 
@@ -179,24 +138,26 @@
         font-size: 45%;
     }
 
+    .navbar {
+        overflow: hidden;
+    }
+
 
     .nav-list {
         flex-direction: column;
-        width: 92.5%;
+        width: 100%;
         margin-right: 0;
         position: absolute;
         z-index: 1;
-        top: 1.6rem;
+        top: 0;
         background-color: #F66709;
-        height: 30rem;
+        height: 20rem;
         border-radius: 0;
         overflow: hidden;
-
-    }
-
-    .innerUl {
-        margin-top: 5rem;
-        text-align: center;
+        transition: 0.4s ease-in-out;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        margin-top: 9rem;
     }
 
 
@@ -219,8 +180,11 @@
 
     .nav-list li {
         margin-bottom: 1rem;
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
+        font-size: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-left: 0;
 
     }
 
@@ -245,9 +209,6 @@
         display: none;
     }
 
-    /* .left-section {
-        margin-top: 0.5rem;
-    } */
 
     .middle-section {
         display: none;
@@ -426,11 +387,4 @@
     #form-pages5 h2 {
         color: white;
     }
-
-
-
-
-
-
-
 }
