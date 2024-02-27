@@ -807,7 +807,7 @@ h2 {
 
 
 
-#products .heading{
+#products .heading {
   text-align: center;
   font-size: 2rem;
   padding: 3rem 0;
@@ -816,22 +816,22 @@ h2 {
 }
 
 
-.products .product-slider{
+.products .product-slider {
   padding: 3rem;
-  
+
 }
 
-.wrapper{
+.wrapper {
   display: grid;
   column-gap: 3rem;
   row-gap: 4rem;
-grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 
-.products .product-slider .box{
+.products .product-slider .box {
 
   text-align: center;
   border-radius: 0.5rem;
@@ -839,22 +839,34 @@ grid-template-columns: auto auto auto auto;
   height: 20rem;
   width: 20rem;
   padding-top: 2rem;
-  
+
 }
 
-.products .product-slider .box:hover{
+.products .product-slider .box:hover {
   box-shadow: 1px 1px 10px 4px #F66709;
 }
 
 
-.product-img{
+.product-img {
   width: 12rem;
   mix-blend-mode: darken;
 
 }
 
 
-.products .product-slider .box h4{
+.products .product-slider .box h4 {
   font-size: 1rem;
+
+}
+
+.products .product-slider .box h4 a {
   color: #F66709;
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+.products .product-slider .box h4 a:hover {
+  color: black;
+
 }
