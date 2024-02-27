@@ -131,6 +131,7 @@ hr {
   top: 3;
 }
 
+
 .line {
   width: 25px;
   height: 4px;
@@ -802,4 +803,58 @@ h2 {
   font-size: 1.5rem;
   font-weight: 800;
 
+}
+
+
+
+#products .heading{
+  text-align: center;
+  font-size: 3rem;
+  padding: 4rem 0;
+  color: white;
+  background-color: #F66709;
+}
+
+
+.products .product-slider{
+  padding: 3rem;
+  
+}
+
+.wrapper{
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 4rem;
+grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.products .product-slider .box{
+
+  text-align: center;
+  border-radius: 0.5rem;
+  outline-offset: -1rem;
+  height: 20rem;
+  width: 20rem;
+  padding-top: 2rem;
+  
+}
+
+.products .product-slider .box:hover{
+  box-shadow: 1px 1px 10px 4px #F66709;
+}
+
+
+.product-img{
+  width: 12rem;
+  mix-blend-mode: darken;
+
+}
+
+
+.products .product-slider .box h4{
+  font-size: 1rem;
+  color: #F66709;
 }
