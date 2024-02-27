@@ -83,7 +83,9 @@ hr {
 
 /* Styles for the right section */
 .nav-list {
+
   display: flex;
+  justify-content: space-evenly;
   background-color: #006768;
   padding-left: 5rem;
   margin-right: 3rem;
@@ -92,7 +94,7 @@ hr {
   list-style: none;
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 2rem;
-  transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in;
 
 }
 
@@ -109,7 +111,7 @@ hr {
 }
 
 .nav-link {
-  margin-right: 3rem;
+  margin-right: 2rem;
   color: white;
   text-decoration: none;
   transition: 0.3s;
@@ -118,7 +120,6 @@ hr {
 
 .nav-link:hover {
   color: #020b15;
-  font-size: 1rem;
 }
 
 
