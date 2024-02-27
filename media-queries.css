@@ -89,10 +89,16 @@
 
     }
 
-    #form-page5 {
-        height: 31rem;
-        width: 25rem;
+     #form-page5 {
+        width: 33rem;
+        height: 23rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
 
+    #form-page5 .form-group input[type="submit"] {
+        padding: 3px 30px;
+        font-size: 1rem;
     }
 
 
