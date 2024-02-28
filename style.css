@@ -744,7 +744,6 @@ h2 {
   width: 100%;
   background-color: white;
   overflow: hidden;
-  height: 80vh;
   margin: 0;
   padding: 0;
 
@@ -754,21 +753,19 @@ h2 {
   width: 90%;
   display: flex;
   justify-content: space-around;
-  gap: 15rem;
   flex-wrap: wrap;
   height: auto;
   margin-top: 2rem;
 }
 
 
-.product-wrapper p{
+.product-wrapper .text {
   text-align: justify;
-  max-width: 40rem;
-
+  width: 50%;
 }
 
 .productbox {
-  max-width: 10rem;
+  width: auto;
   margin-top: 2rem;
 
 }
@@ -778,7 +775,6 @@ h2 {
  width: 100%; 
  text-align: center;
  height: auto;
-
  margin-top: 2rem;
 
 }
