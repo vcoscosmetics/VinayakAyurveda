@@ -13,7 +13,9 @@
       referrerpolicy="no-referrer"
     />
 
-    <title>Products</title>
+    <title>Orange Peel Powder
+
+    </title>
   </head>
   <body>
     <header>
@@ -56,6 +58,9 @@
     </header>
 
     <!-- main part start -->
+    <div class="product-details-heading">
+      <p>Product Details</p>
+    </div>
 
     <div class="container">
       <div class="product-wrapper">
@@ -109,12 +114,14 @@
 
 
           <div class="contact-details">
-            <Button class="Call-Us"> 
+            <Button id="Call-Us"> 
               <a href="tel:9871099539">Call Us</a>
             </Button>
-            <form>
-              <label for="Phone">Email</label>
+            <form id="Email-form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="8e8f0bf8-f260-46d0-a00f-be9c433731b8"/>
+              <label for="Email">Email:</label>
               <input type="email" id="Email" name="Email" placeholder="Enter your email"> 
+              <button id="submit-btn" type="submit">submit</button>
             </form>
           </div>
         </div>

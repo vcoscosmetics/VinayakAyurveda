@@ -744,8 +744,10 @@ h2 {
   width: 100%;
   background-color: white;
   overflow: hidden;
+  height: 80vh;
   margin: 0;
   padding: 0;
+
 }
 
 .product-wrapper {
@@ -755,6 +757,7 @@ h2 {
   gap: 15rem;
   flex-wrap: wrap;
   height: auto;
+  margin-top: 2rem;
 }
 
 
@@ -776,6 +779,8 @@ h2 {
  text-align: center;
  height: auto;
 
+ margin-top: 2rem;
+
 }
 
 table, td, th{
@@ -791,24 +796,42 @@ th{
 
 
 .contact-details{
-display: grid;
-grid-template-columns: auto auto;
-column-gap: 1rem;
+display: flex;
+justify-content: left;
+gap: 2rem;
 align-items: center;
+margin-top: 2rem;
 }
 
-.contact-details .Call-Us{
-  margin-top: 2rem;
-  padding: 0.5rem 0;
+.contact-details #Call-Us{
+  padding: 1rem 4rem;
   align-items: center;
+  text-align: center;
   
 }
 
-.contact-details .Call-Us a{
+.contact-details #Call-Us a{
   text-decoration: none;
   color: white;
-  padding: 5rem 0;
 }
+
+#Email-form{
+  background-color: #006768;
+  padding: 0.5rem ;
+  padding-left: 1.5rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  display: block;
+  gap: 2rem;
+}
+
+#Email {
+  margin: 0;
+  height: 2px;
+}
+
+
 
 
 
@@ -919,4 +942,14 @@ h2 {
 .products .product-slider .box h4 a:hover {
   color: black;
 
+}
+
+.product-details-heading{
+  background-color: #F66709;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+  margin-top: 1rem;
+  
 }
