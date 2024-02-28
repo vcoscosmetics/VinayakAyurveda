@@ -743,27 +743,78 @@ h2 {
 .container {
   width: 100%;
   background-color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-.wrapper {
+.product-wrapper {
   width: 90%;
   display: flex;
-  margin: auto;
-  justify-content: start;
+  justify-content: space-around;
+  gap: 15rem;
+  flex-wrap: wrap;
   height: auto;
+}
 
+
+.product-wrapper p{
+  text-align: justify;
+  max-width: 40rem;
 
 }
 
 .productbox {
-
+  max-width: 10rem;
   margin-top: 2rem;
 
 }
 
 
+.product-details table{
+ width: 100%; 
+ text-align: center;
+ height: auto;
+
+}
+
+table, td, th{
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 1rem;
+  
+}
+
+th{
+  width: 40%;
+}
+
+
+.contact-details{
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 1rem;
+align-items: center;
+}
+
+.contact-details .Call-Us{
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  align-items: center;
+  
+}
+
+.contact-details .Call-Us a{
+  text-decoration: none;
+  color: white;
+  padding: 5rem 0;
+}
+
+
+
+
 .allimages {
-  height: 80vh;
+
   display: flex;
 
 }
@@ -792,7 +843,6 @@ h2 {
 
 .text {
   margin-top: 2rem;
-  text-align: start;
 }
 
 h2 {
