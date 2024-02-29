@@ -1,5 +1,5 @@
 /* Large devices between tablet and (desktops) */
-@media only screen and (max-width : 2560px) {
+@media only screen and (max-width : 3000px) {
     html {
         font-size: 180%;
     }
@@ -37,6 +37,9 @@
         height: 28rem;
         width: 20rem;
     }
+
+
+
 
 
 
@@ -397,4 +400,50 @@
     #form-pages5 h2 {
         color: white;
     }
+
+
+    .allimages{
+        justify-content: left;
+        margin-left: 10%;
+        align-items: center;
+        gap: 3rem;
+    }
+
+
+    .productbox{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .main-images img{
+        height: 30rem;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .smallimages{
+        z-index: 1;
+    }
+
+    .product-wrapper .text {
+        width: auto;
+        justify-content: center;
+        margin: 0 2rem ;
+    }
+
+    .product-wrapper{
+        width: 100%;
+    }
+
+
+    .wrapper {
+     
+        grid-template-columns: auto auto ;
+        
+      }
+
+
+
 }

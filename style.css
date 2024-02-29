@@ -754,9 +754,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: auto;
   margin-top: 2rem;
-  min-height: 80vh;
+  height: auto;
   margin-bottom: 2rem;
 }
 
@@ -800,6 +799,7 @@ justify-content: left;
 gap: 2rem;
 align-items: center;
 margin-top: 2rem;
+flex-wrap: wrap;
 }
 
 .contact-details #Call-Us{
@@ -931,7 +931,7 @@ h2 {
 
 
 .product-img {
-  width: 12rem;
+  width: 15rem;
   mix-blend-mode: darken;
 
 }
