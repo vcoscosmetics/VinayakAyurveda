@@ -1,7 +1,7 @@
 /* Large devices between tablet and (desktops) */
 @media only screen and (max-width : 3000px) {
     html {
-        font-size: 180%;
+        font-size: 135%;
     }
 }
 
@@ -39,19 +39,10 @@
     }
 
 
-
-
-
-
-
-
-
-
-
 }
 
 /* Medium devices (tablets) */
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
 
     #index-PCD {
         height: 30rem;
@@ -139,7 +130,7 @@
 
 
 /* Small devices (phones) */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 
 
 
