@@ -139,7 +139,7 @@
 
 
 /* Small devices (phones) */
-@media (max-width: 575px) {
+@media (max-width: 600px) {
 
 
 
@@ -440,10 +440,34 @@
 
     .wrapper {
      
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto auto ;
+      
+        column-gap: 0.5rem;
+        row-gap: 2rem;
+    
+      
         
       }
 
+      .product-img{
+        width: 10rem;
+      }
+
+
+      .products .product-slider .box {
+
+        text-align: center;
+        border-radius: 0.5rem;
+        height: 20rem;
+        width: 15rem;
+        padding-top: 2rem;
+      
+      }
+
+      .products .product-slider .box h4 {
+        font-size: 1.2rem;
+      
+      }
 
 
 }
