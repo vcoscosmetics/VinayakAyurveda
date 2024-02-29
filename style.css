@@ -756,6 +756,7 @@ h2 {
   flex-wrap: wrap;
   height: auto;
   margin-top: 2rem;
+  min-height: 80vh;
 }
 
 
