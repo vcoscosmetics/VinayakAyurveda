@@ -942,6 +942,7 @@ h2 {
   height: 20rem;
   width: 20rem;
   padding-top: 2rem;
+  transition: 0.3s;
 
 }
 
@@ -983,4 +984,18 @@ h2 {
   padding: 1.5rem 0;
   margin-top: 1rem;
   
+}
+
+
+#contact-us-form{
+  display: none;
+}
+
+#mid-dev-3{
+  flex-wrap: wrap;
+}
+
+
+#iframe3{
+  display: none;
 }

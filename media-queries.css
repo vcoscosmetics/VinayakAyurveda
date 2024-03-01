@@ -3,12 +3,60 @@
     html {
         font-size: 135%;
     }
+    #iframe2{
+        display: none;
+
+    }
+
+    .child10{
+        font-size: 1.5rem;
+    }
+
+    #iframe1{
+        display: none;
+
+    }
+
+    #iframe3{
+        display: block;
+    }
+
+ 
 }
 
 @media only screen and (max-width : 1600px) {
     html {
         font-size: 100%;
     }
+    #iframe2{
+        display: none;
+
+    }
+
+    #contact-us-form{
+        display: none;
+    }
+
+    #iframe3{
+        display: none;
+    }
+
+    #iframe1{
+        display: block;
+    }
+
+    #iframe2{
+        display: none;
+
+    }
+
+    .child10{
+        font-size: 1rem;
+    }
+
+
+    
+
 }
 
 @media only screen and (max-width : 1024px) {
@@ -36,6 +84,28 @@
     #form-page5 {
         height: 28rem;
         width: 20rem;
+    }
+
+    #contact-us-form{
+        display: block;
+    }
+
+
+    #iframe3{
+        display: none;
+    }
+
+    #iframe1{
+        display: block;
+    }
+
+    #iframe2{
+        display: none;
+
+    }
+
+    .child10{
+        display: none;
     }
 
 
@@ -109,14 +179,14 @@
     }
 
 
-    /* iframe {
-        display: none;
-    } */
+    #iframe2{
+        margin-right: 3rem;
+    }
 
 
-
+   
     .child10 {
-        width: 100%;
+        width: 30%;
         margin-left: 3rem;
         border: 2px black;
         margin-top: 2rem;
@@ -124,6 +194,30 @@
 
 
     }
+    .child10{
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    #contact-us-form{
+        display: none;
+
+    }
+
+    #iframe3{
+        display: none;
+    }
+
+    #iframe1{
+        display: none;
+    }
+
+    #iframe2{
+        display: block;
+
+    }
+
+    
 
 }
 
@@ -459,6 +553,19 @@
         font-size: 1.2rem;
       
       }
+
+      
+    #contact-us-form{
+        display: block;
+    }
+
+    #iframe1{
+        display: none;
+    }
+
+    .child10{
+        display: none;
+    }
 
 
 }
