@@ -576,4 +576,32 @@
     }
 
 
+
+    
+.aboutUs-images-container{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .img{
+    height: 30rem;
+    
+    padding: 2rem;
+    margin-top: 3rem
+  }
+  .img p{
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  
+  .img img{
+    width: 35rem;
+  }
+  
+
 }

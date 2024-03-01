@@ -537,11 +537,11 @@ ul {
 
 
 .aboutUs-images-container{
-  width: 70%;
-  margin: 0 15%;
+  width: 90%;
+  margin: 0 5%;
   display: flex;
   justify-content: space-evenly;
-  column-gap: 2rem;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 3rem;
 }
