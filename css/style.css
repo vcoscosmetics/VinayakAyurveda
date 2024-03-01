@@ -537,21 +537,30 @@ ul {
 
 
 .aboutUs-images-container{
-  background-color: yellow;
-  width: 80%;
-  margin: 0 10%;
-  height: 20rem;
+  width: 70%;
+  margin: 0 15%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   column-gap: 2rem;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .img{
-  background-color: red;
-  height: 10rem;
-  width: 10rem;
-  border: 1px solid black;
+  height: 21rem;
+  width: auto;
+  text-align: left;
+  border: 1px solid #006768;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.img p{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.img img{
+  width: 22rem;
 }
 
 
@@ -943,11 +952,13 @@ h2 {
   width: 20rem;
   padding-top: 2rem;
   transition: 0.3s;
+  border: 1px solid;
 
 }
 
 .products .product-slider .box:hover {
-  box-shadow: 1px 1px 10px 4px #F66709;
+  box-shadow: 1px 1px 5px 2px #F66709;
+  border: none;
 }
 
 
