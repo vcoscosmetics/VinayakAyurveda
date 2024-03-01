@@ -87,7 +87,7 @@
     }
 
     #contact-us-form{
-        display: block;
+        display: none;
     }
 
 
@@ -105,7 +105,8 @@
     }
 
     .child10{
-        display: none;
+        font-size: 1.2rem;
+        display: block;
     }
 
 
@@ -565,6 +566,13 @@
 
     .child10{
         display: none;
+    }
+
+    .child12{
+        width: auto;
+    }
+    #iframe2{
+        margin-left: 3rem;
     }
 
 
