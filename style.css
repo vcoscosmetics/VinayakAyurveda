@@ -536,6 +536,26 @@ ul {
 }
 
 
+.aboutUs-images-container{
+  background-color: yellow;
+  width: 80%;
+  margin: 0 10%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.img{
+  background-color: red;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid black;
+}
+
+
+
 #mid-dev-2 {
   display: flex;
   justify-content: space-evenly;
@@ -892,7 +912,7 @@ h2 {
 
 #products .heading {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 3rem 0;
   color: white;
   background-color: #F66709;
@@ -938,7 +958,8 @@ h2 {
 
 
 .products .product-slider .box h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
 
 }
 
