@@ -681,6 +681,12 @@ h2 {
 
 }
 
+.contact-us-headings{
+  border: 1px solid;
+  height: 0;
+  width: 17rem;
+}
+
 .child10 p {
   color: black;
 
@@ -691,7 +697,6 @@ h2 {
   width: 30%;
   margin-left: 3rem;
   border: 2px black;
-  margin-top: 2rem;
   text-align: start;
 
 }
@@ -1023,5 +1028,11 @@ h2 {
 .keywords{
   font-size: 0.1rem;
   color: #F7F7F7;
+}
+
+
+#Maps-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
