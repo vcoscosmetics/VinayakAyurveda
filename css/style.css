@@ -643,8 +643,8 @@ h2 {
 
 .child3 img {
 
-  height: 23rem;
-  margin-top: 3%;
+  height: 21rem;
+  margin-top: 2.5rem;
   width: 45rem;
   margin-bottom: 2.5rem;
 }
@@ -652,10 +652,15 @@ h2 {
 .child4 {
   height: 100%;
   width: 30rem;
-  line-height: 1.9rem;
   margin-left: 0;
 
 }
+
+.child4-points{
+  font-size: 1rem;
+}
+
+
 
 .form-heading {
   color: white;
@@ -670,9 +675,7 @@ h2 {
 }
 
 
-.child4 p {
-  font-size: 1.5rem;
-}
+
 
 
 .child10 h4 {
