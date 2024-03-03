@@ -537,6 +537,12 @@
         width: 100%;
     }
 
+    
+    .text p{
+        font-size: 1.2rem;
+    }
+
+
     .smallimages{
         z-index: 1;
     }
