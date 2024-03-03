@@ -1044,3 +1044,20 @@ h2 {
   font-weight: 600;
 }
 
+
+
+.footer-inner-list{
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  
+}
+
+.footer-inner-list i{
+  font-size: 1.5rem;
+    margin-right: 2rem;
+
+}
+
