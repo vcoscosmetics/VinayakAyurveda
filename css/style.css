@@ -579,11 +579,12 @@ ul {
 .child1 {
   height: auto;
   width: 50%;
-  text-align: justify;
 }
 
 .child1 p {
   color: black;
+  text-align: justify;
+
 
 }
 
