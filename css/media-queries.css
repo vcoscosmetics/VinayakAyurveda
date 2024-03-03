@@ -21,6 +21,20 @@
         display: block;
     }
 
+    .child10 h3{
+        font-size: 2rem;
+    }
+
+    #companyName{
+        font-size: 1.7rem;
+        font-weight: 550;
+    }
+
+    #companyAddress{
+        font-size: 1.4rem;
+        font-weight: 200
+    }
+
  
 }
 
@@ -52,6 +66,20 @@
 
     .child10{
         font-size: 1rem;
+    }
+
+    .child10 h3{
+        font-size: 1.5rem;
+    }
+
+    #companyName{
+        font-size: 1.2rem;
+        font-weight: 550;
+    }
+
+    #companyAddress{
+        font-size: 1rem;
+        font-weight: 200
     }
 
 
@@ -546,7 +574,7 @@
         border-radius: 0.5rem;
         height: 15rem;
         width: 15rem;
-        padding: 0 2rem;
+        padding: 0 1rem;
         padding-top: 3rem;
       
       }
