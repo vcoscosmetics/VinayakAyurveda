@@ -430,8 +430,12 @@ button:hover {
 .foot-panel2 ul a {
   display: block;
   font-size: 0.85rem;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #dddddd;
+  text-decoration: none;
+}
+.foot-panel2 ul p{
+  font-weight: 500;
 }
 
 ul {
