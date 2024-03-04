@@ -425,8 +425,6 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
 }
 
 .foot-panel2 ul a {
