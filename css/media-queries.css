@@ -580,9 +580,9 @@
         text-align: center;
         border-radius: 0.5rem;
         height: 22rem;
-        width: 18rem;
-        padding: 0 1rem;
+        width: 20rem;
         padding-top: 3rem;
+        margin-top: 2rem;
       
       }
 
@@ -651,6 +651,18 @@
   .foot-panel2 ul p{
     font-size: 1.3rem;
   }
+
+
+  .product-box-bottom{
+
+    background-color:rgba(220, 218, 218, 0.888);
+    height:6.5rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+  
+  }
+  
   
 
 }
