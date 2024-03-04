@@ -423,19 +423,22 @@ button:hover {
   background-color: #006768;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 .foot-panel2 ul a {
   display: block;
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin-top: 5px;
   color: #dddddd;
   text-decoration: none;
 }
 .foot-panel2 ul p{
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 ul {
