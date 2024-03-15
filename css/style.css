@@ -1,3 +1,8 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #F7F7F7;
   box-sizing: border-box;
@@ -5,7 +10,14 @@ body {
   padding: 0;
   font-family: Tahoma;
   animation: transitionIn 0.75s;
+  
 }
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+
 
 
 
@@ -23,9 +35,7 @@ body {
 }
 
 
-html {
-  font-size: 10px;
-}
+
 
 .main {
   width: 100%;
@@ -69,6 +79,7 @@ hr {
   align-items: center;
   color: white;
   width: 100%;
+  overflow: hidden;
 }
 
 
@@ -329,7 +340,7 @@ hr {
   justify-content: space-around;
   background-color: #006768;
   height: auto;
-  padding: 1rem 7rem;
+  padding: 2rem 7rem;
   gap: 1rem;
   flex-wrap: wrap
 }
@@ -337,8 +348,9 @@ hr {
 #PCD-part1 {
   width: 40rem;
   height: auto;
-  text-align: justify;
   line-height: 1.5rem;
+  padding-top: 1.5rem;
+
 
 
 }
@@ -350,6 +362,7 @@ hr {
 
 #PCD-part1 p {
   color: white;
+  padding-top: 1rem;
 }
 
 #PCD-part2 {
