@@ -258,7 +258,7 @@
 
 
     html {
-        font-size: 45%;
+        font-size: 60%;
     }
 
     .navbar {
@@ -666,5 +666,33 @@
 
   
   
+
+}
+
+
+@media (max-width: 440px) {
+    
+    .wrapper {
+     
+        grid-template-columns: auto ;
+    }
+
+    
+    .products .product-slider .box {
+
+      
+        height: 29rem;
+        width: 25rem;
+  
+      
+      }
+
+
+      .product-img{
+        width: 22rem;
+      }
+
+      
+    
 
 }
