@@ -268,7 +268,7 @@
 
     .nav-list {
         flex-direction: column;
-        width: 40%;
+        width: 50%;
         margin-right: 0rem;
         position: absolute;
         z-index: 1;
