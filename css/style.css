@@ -1,8 +1,8 @@
-
+/* 
 *{
-  margin: 0;
-  padding: 0;
-}
+
+  line-height: 1.8rem;
+} */
 body {
   background-color: #F7F7F7;
   box-sizing: border-box;
@@ -441,7 +441,6 @@ button:hover {
 
 ul {
 
-  margin-top: 15px;
   padding: 0;
 
 }
@@ -585,7 +584,8 @@ ul {
 
 .child1 p {
   color: black;
-  text-align: justify;
+  line-height: 1.8rem;
+
 
 
 }
