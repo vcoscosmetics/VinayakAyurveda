@@ -1,8 +1,4 @@
-/* 
-*{
 
-  line-height: 1.8rem;
-} */
 body {
   background-color: #F7F7F7;
   box-sizing: border-box;
@@ -521,6 +517,7 @@ ul {
   color: black;
   margin-left: 10%;
   text-align: justify;
+  line-height: 1.8rem;
 }
 
 #below-heading {
