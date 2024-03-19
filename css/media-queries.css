@@ -268,7 +268,7 @@
 
     .nav-list {
         flex-direction: column;
-        width: 50%;
+        width: 95%;
         margin-right: 0rem;
         position: absolute;
         z-index: 1;
@@ -281,7 +281,7 @@
         transition: 0.4s ease;
         padding-left: 1rem;
         padding-top: 2rem;
-        margin-top: 10rem;
+        margin-top: 9rem;
         align-items: start;
     }
 
