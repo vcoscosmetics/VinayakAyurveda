@@ -305,6 +305,8 @@ hr {
 .about-container p {
   color: white;
   font-size: 1rem;
+  line-height: 1.8rem;
+
 
 }
 
@@ -325,31 +327,31 @@ hr {
   height: auto;
   padding: 2rem 7rem;
   gap: 1rem;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #PCD-part1 {
   width: 40rem;
   height: auto;
-  line-height: 1.5rem;
-  padding-top: 1.5rem;
-
-
-
 }
 
 #PCD-part1 h4 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.2rem;  
 }
 
 #PCD-part1 p {
   color: white;
   padding-top: 1rem;
+  line-height: 1.8rem;
+
 }
 
 #PCD-part2 {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
+  /* padding-top: 1.5rem; */
+
 }
 
 #PCD-part2 img {
@@ -421,6 +423,7 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+
 }
 
 .foot-panel2 ul a {
@@ -429,6 +432,7 @@ button:hover {
   margin-top: 5px;
   color: #dddddd;
   text-decoration: none;
+  line-height: 1.8rem;
 }
 .foot-panel2 ul p{
   font-weight: 500;
@@ -549,20 +553,22 @@ ul {
 }
 
 .img{
-  height: 21rem;
+  height: 18rem;
   width: auto;
   text-align: left;
-  border: 1px solid #006768;
+  border: 1px solid rgb(208, 208, 208);
   border-radius: 10px;
   padding: 1.5rem;
 }
 .img p{
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
+  color: rgb(87, 90, 92);
 }
 
 .img img{
-  width: 22rem;
+  width: 20rem;
+  border-radius: 5px;
 }
 
 
