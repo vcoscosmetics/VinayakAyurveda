@@ -1,4 +1,3 @@
-
 body {
   background-color: #F7F7F7;
   box-sizing: border-box;
@@ -6,7 +5,7 @@ body {
   padding: 0;
   font-family: Tahoma;
   animation: transitionIn 0.75s;
-  
+
 }
 
 
@@ -134,7 +133,7 @@ hr {
 }
 
 
-.dropdown-menu{
+.dropdown-menu {
   position: absolute;
   width: 100%;
   top: 9rem;
@@ -153,10 +152,10 @@ hr {
 .dropdown-menu ul {
   list-style: none;
   text-align: center;
-  
+
 }
 
-.dropdown-menu ul li a{
+.dropdown-menu ul li a {
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
@@ -300,7 +299,7 @@ hr {
 
 /* Read more hover effect */
 .read-more:hover {
-  box-shadow: 0 0 10px  rgb(161, 158, 158);
+  box-shadow: 0 0 10px rgb(161, 158, 158);
   scale: 1.02;
 }
 
@@ -365,7 +364,7 @@ hr {
 
 #PCD-part1 h4 {
   color: white;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 
 #PCD-part1 p {
@@ -461,7 +460,8 @@ button:hover {
   text-decoration: none;
   line-height: 1.8rem;
 }
-.foot-panel2 ul p{
+
+.foot-panel2 ul p {
   font-weight: 500;
   font-size: 1.2rem;
 }
@@ -569,7 +569,7 @@ ul {
 }
 
 
-.aboutUs-images-container{
+.aboutUs-images-container {
   width: 90%;
   margin: 0 5%;
   display: flex;
@@ -579,7 +579,7 @@ ul {
   margin-top: 3rem;
 }
 
-.img{
+.img {
   height: 18rem;
   width: auto;
   text-align: left;
@@ -587,29 +587,30 @@ ul {
   border-radius: 10px;
   padding: 1.5rem;
 }
-.img p{
+
+.img p {
   font-size: 1.2em;
   font-weight: 500;
   color: rgb(87, 90, 92);
 }
 
-.img img{
+.img img {
   width: 20rem;
   border-radius: 5px;
 }
 
 
 
-.certifications{
- 
+.certifications {
+
   width: 80%;
   margin: auto;
   margin-top: 5rem;
-  
+
 }
 
 
-.certifications p{
+.certifications p {
   color: black;
   line-height: 1.8rem;
   font-size: 2rem;
@@ -617,7 +618,7 @@ ul {
 
 }
 
-.certifications hr{
+.certifications hr {
   height: 0;
   border: 1px solid;
   width: 20rem;
@@ -625,23 +626,23 @@ ul {
 
 }
 
-.certifications .certificate-wrapper{
+.certifications .certificate-wrapper {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   margin: auto;
 
 }
 
 
-.certifications .certificate-wrapper .certifications-img{
+.certifications .certificate-wrapper .certifications-img {
   position: relative;
   height: 20rem;
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-.certifications .certificate-wrapper .certifications-img img{
+.certifications .certificate-wrapper .certifications-img img {
   object-fit: cover;
   object-position: center;
   height: 100%;
@@ -682,8 +683,8 @@ margin-bottom: 2rem;
 }
 
 .child2 h2 {
-color: white;
-text-align: center;
+  color: white;
+  text-align: center;
 }
 
 
@@ -742,7 +743,7 @@ text-align: center;
 
 }
 
-.child4-points{
+.child4-points {
   font-size: 1rem;
 }
 
@@ -770,7 +771,7 @@ text-align: center;
 
 }
 
-.contact-us-headings{
+.contact-us-headings {
   border: 1px solid;
   height: 0;
   width: 17rem;
@@ -895,51 +896,53 @@ text-align: center;
 }
 
 
-.product-details table{
- width: 100%; 
- height: auto;
- margin-top: 2rem;
+.product-details table {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
 
 }
 
-table, td, th{
+table,
+td,
+th {
   border: 1px solid lightgrey;
   border-collapse: collapse;
   padding: 0.5rem;
   font-size: 1rem;
   padding-left: 1rem;
-  
+
 }
 
-th{
+th {
   width: 40%;
 }
 
 
-.contact-details{
-display: flex;
-justify-content: left;
-gap: 2rem;
-align-items: center;
-margin-top: 2rem;
-flex-wrap: wrap;
+.contact-details {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
-.contact-details #Call-Us{
+.contact-details #Call-Us {
   padding: 1rem 4rem;
   align-items: center;
   text-align: center;
-  
+
 }
 
-.contact-details #Call-Us a{
+.contact-details #Call-Us a {
   text-decoration: none;
   color: white;
 }
 
-#Email-form{
+#Email-form {
   background-color: #006768;
-  padding: 0.5rem ;
+  padding: 0.5rem;
   padding-left: 1.5rem;
   border-radius: 5px;
   color: white;
@@ -996,12 +999,12 @@ h2 {
 
 }
 
-.brand{
+.brand {
   font-size: 1rem;
   font-weight: 600;
 }
 
-.price{
+.price {
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -1018,83 +1021,83 @@ h2 {
 
 
 
-#contact-us-form{
+#contact-us-form {
   display: none;
 }
 
-#mid-dev-3{
+#mid-dev-3 {
   flex-wrap: wrap;
 }
 
 
-#iframe3{
+#iframe3 {
   display: none;
 }
 
-#iframe2{
+#iframe2 {
   display: none;
 }
 
-#iframe1{
+#iframe1 {
   display: none;
 }
 
 
-.keywords{
+.keywords {
   font-size: 0.1rem;
   color: #F7F7F7;
 }
 
 
-#Maps-heading{
+#Maps-heading {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 
 
-.footer-inner-list{
+.footer-inner-list {
   margin-top: 2rem;
   list-style: none;
   display: flex;
   justify-content: left;
   padding: 0;
-  
+
 }
 
-.footer-inner-list i{
+.footer-inner-list i {
   font-size: 1.5rem;
-    margin-right: 2rem;
+  margin-right: 2rem;
 
 }
 
-.product-page{
+.product-page {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
 }
 
-.product-page .filter-buttons{
+.product-page .filter-buttons {
   display: flex;
   flex-direction: column;
   width: 20%;
 }
 
-.product-page .filter-buttons p{
+.product-page .filter-buttons p {
   text-transform: capitalize;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
-    
+
 }
 
-.product-page .filter-buttons hr{
+.product-page .filter-buttons hr {
   border: 2px solid rgb(179, 176, 176) !important;
   height: 0;
   margin-bottom: 5px;
 }
 
-.product-page .filter-buttons button{
+.product-page .filter-buttons button {
 
   border-radius: 0 !important;
   text-align: left;
@@ -1105,10 +1108,10 @@ h2 {
 
 }
 
-.product-box-container{
-  width:70%;
+.product-box-container {
+  width: 70%;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   row-gap: 5rem;
   margin-top: 3rem;
@@ -1117,7 +1120,7 @@ h2 {
 }
 
 
-.product-box-container .box{
+.product-box-container .box {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1129,17 +1132,17 @@ h2 {
 }
 
 
-.product-box-container .box:hover{
+.product-box-container .box:hover {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
 
 }
 
-.product-box-container .box a{
+.product-box-container .box a {
   text-decoration: none;
   color: rgb(46, 44, 44);
 }
 
 
-.hide{
+.hide {
   display: none !important;
 }
