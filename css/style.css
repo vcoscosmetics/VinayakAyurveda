@@ -629,14 +629,16 @@ ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  flex-wrap:wrap ;
   margin: auto;
+
 }
 
 
 .certifications .certificate-wrapper .certifications-img{
   position: relative;
   height: 20rem;
-
+margin-bottom: 2rem;
 }
 
 .certifications .certificate-wrapper .certifications-img img{
