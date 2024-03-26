@@ -9,10 +9,12 @@ body {
   
 }
 
-::-webkit-scrollbar{
-  width: 0;
-}
 
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.3s;
+}
 
 
 
@@ -556,7 +558,7 @@ ul {
   height: 18rem;
   width: auto;
   text-align: left;
-  border: 1px solid rgb(208, 208, 208);
+  border: 1px solid rgb(225 219 219);
   border-radius: 10px;
   padding: 1.5rem;
 }
@@ -569,6 +571,54 @@ ul {
 .img img{
   width: 20rem;
   border-radius: 5px;
+}
+
+
+
+.certifications{
+ 
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  
+}
+
+
+.certifications p{
+  color: black;
+  line-height: 1.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+.certifications hr{
+  height: 0;
+  border: 1px solid;
+  width: 20rem;
+  margin-bottom: 2rem;
+
+}
+
+.certifications .certificate-wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+
+.certifications .certificate-wrapper .certifications-img{
+  position: relative;
+  height: 20rem;
+
+}
+
+.certifications .certificate-wrapper .certifications-img img{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
 }
 
 
