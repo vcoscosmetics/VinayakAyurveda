@@ -270,8 +270,12 @@
 
     }
 
+    .dropdown-menu{
+    }
+   
 
     .nav-list {
+        display: none;
         flex-direction: column;
         width: 95%;
         margin-right: 0rem;
@@ -302,7 +306,7 @@
     }
 
     .v-class {
-        display: none;
+        height: 22rem
         
     }
 

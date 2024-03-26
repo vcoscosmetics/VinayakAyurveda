@@ -134,6 +134,36 @@ hr {
 }
 
 
+.dropdown-menu{
+  position: absolute;
+  width: 100%;
+  top: 9rem;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
+  line-height: 3rem;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  background-color: #F66709;
+  height: 0;
+  z-index: 3;
+
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  text-align: center;
+  
+}
+
+.dropdown-menu ul li a{
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
 .burger {
   display: none;
   position: absolute;
