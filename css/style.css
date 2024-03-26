@@ -139,7 +139,7 @@ hr {
   position: absolute;
   cursor: pointer;
   right: 2%;
-  top: 3;
+  top: 5rem;
 }
 
 
@@ -639,20 +639,21 @@ ul {
 }
 
 .child2 {
-  height: auto;
+  height: 25rem;
   width: 20rem;
   margin: 0 0 2rem;
   padding: 0 3rem;
   background-color: #006768;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 1.5rem;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
+  border-radius: 1rem;
   color: white;
 }
+
+.child2 h2 {
+color: white;
+text-align: center;
+}
+
 
 .form-group {
   margin-bottom: 2px;
@@ -789,7 +790,7 @@ h2 {
 }
 
 .child14 {
-  height: 27rem;
+  height: 25rem;
   width: 20rem;
   margin: 0 0 2rem;
   margin-bottom: 2rem;
