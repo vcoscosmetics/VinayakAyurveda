@@ -709,7 +709,8 @@ ul {
   background-color: #F66709;
   color: #fff;
   border: none;
-  padding: 0.8rem 9rem;
+  width: 21rem;
+  padding: 0.8rem 0;
   cursor: pointer;
   border-radius: 5px;
 }
