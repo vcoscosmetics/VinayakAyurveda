@@ -328,8 +328,7 @@
       <section class="subscription-section">
         <h2>Stay In Touch</h2>
     
-          <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="8e8f0bf8-f260-46d0-a00f-be9c433731b8"/>
+          <form id="index-page-form">
 
           <input
             type="email"
@@ -338,7 +337,7 @@
             placeholder="Enter your email"
             required
           />
-          <button type="submit">Submit</button>
+          <button type="submit" name="button">Submit</button>
         </form>
       </section>
 
@@ -426,6 +425,34 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="index.js"></script>
-    <!-- <script src="index.js"></script> -->
+    <script>
+
+      let url = 'https://script.google.com/macros/s/AKfycbxnRj92w-siMqg8Kgxq0DeBGR3rYeQ3jK0KEUvOh7k3GlS29FUBwrURQkR55praO02dfg/exec';
+      let form = document.querySelector("#index-page-form");
+
+      form.addEventListener("submit", (e) => {
+      
+        e.target.button.innerHTML = "Working"
+        let d = new FormData(form);
+            fetch(url, {
+                method: "POST",
+                body: d
+            }).then((res) => res.text()).then((finalRes) => {
+
+                    form.reset();
+                    e.target.button.innerHTML = "Saved";
+
+                    setTimeout(() => {
+                        e.target.button.innerHTML = "Submit";
+
+                    }, 2000)
+
+                })
+        e.preventDefault();
+
+      })
+
+
+    </script>
   </body>
 </html>

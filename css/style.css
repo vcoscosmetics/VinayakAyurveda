@@ -705,11 +705,11 @@ ul {
 
 
 
-.form-group input[type="submit"] {
+.form-group button[type="submit"] {
   background-color: #F66709;
   color: #fff;
   border: none;
-  padding: 0.8rem 9.3rem;
+  padding: 0.8rem 9rem;
   cursor: pointer;
   border-radius: 5px;
 }

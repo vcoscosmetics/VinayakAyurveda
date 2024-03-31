@@ -252,7 +252,7 @@
       <div class="mid-dev-2-par1">
         <div class="child14" id="form-page5">
           <p class="form-heading">Contact Us</p>
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form id="third-party-form">
             <div class="form-group">
               <label for="name">Name</label>
               <input type="hidden" name="access_key" value="8e8f0bf8-f260-46d0-a00f-be9c433731b8"/>
@@ -270,7 +270,7 @@
               <textarea id="message" name="message" required></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Submit" />
+              <button type="submit" value="Submit" name="button" >submit</button>
             </div>
           </form>
 
@@ -332,6 +332,37 @@
         </div>
       </div>
     </footer>
+
+
+    <script>
+
+      let url = 'https://script.google.com/macros/s/AKfycbxnRj92w-siMqg8Kgxq0DeBGR3rYeQ3jK0KEUvOh7k3GlS29FUBwrURQkR55praO02dfg/exec';
+      let form = document.querySelector("#third-party-form")
+
+      form.addEventListener("submit", (e) => {
+      
+        e.target.button.innerHTML = "Working"
+        let d = new FormData(form);
+            fetch(url, {
+                method: "POST",
+                body: d
+            }).then((res) => res.text()).then((finalRes) => {
+
+                    form.reset();
+                    e.target.button.innerHTML = "Saved";
+
+                    setTimeout(() => {
+                        e.target.button.innerHTML = "Submit";
+
+                    }, 2000)
+
+                })
+        e.preventDefault();
+
+      })
+
+
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
