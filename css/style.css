@@ -516,6 +516,18 @@ ul {
 }
 
 
+.product-details-heading{
+  background-color: #F66709;
+  text-align: center;
+  color: white;
+  line-height: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  height: auto;
+  font-size: 2rem;
+}
+
+
 
 
 #about-heading {
