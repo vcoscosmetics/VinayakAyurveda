@@ -96,6 +96,8 @@ hr {
   justify-content: space-evenly;
   background-color: #006768;
   padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin-right: 3rem;
   align-items: center;
   margin-top: 0.5rem;
@@ -107,12 +109,12 @@ hr {
 }
 
 
-.nav-list i {
+/* .nav-list i {
   background-color: #F66709;
   padding: 2rem 1.5rem;
   border-bottom-right-radius: 2rem;
   transition: 0.3s;
-}
+} */
 
 .nav-list i:hover {
   color: #020b15;
