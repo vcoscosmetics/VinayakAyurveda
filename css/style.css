@@ -1097,6 +1097,7 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 20%;
+  position: sticky;
 }
 
 .product-page .filter-buttons p {

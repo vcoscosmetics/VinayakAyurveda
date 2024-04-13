@@ -528,9 +528,10 @@
 
     #form-page5 {
         width: 33rem;
-        height: 22rem;
+        height: 25rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
+
     }
         #form-page5 .form-group input[type="submit"] {
         padding: 3px 10px;
@@ -541,10 +542,11 @@
     #form-page5 .form-group input[type="text"],
     .form-group input[type="email"],
     .form-group textarea {
-        width: 100%;
-        padding: 0.01rem;
+        width: 95%;
+        padding: 0.5rem 0.7rem;
         border: 1px solid #ccc;
         border-radius: 5px;
+        outline: none;
     }
 
     #form-pages5 .form-group {
