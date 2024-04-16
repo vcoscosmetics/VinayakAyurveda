@@ -581,6 +581,7 @@ ul {
 #brand {
   margin-left: 60%;
   font-size: 1.6rem;
+  color: lightgrey;
 }
 
 
@@ -951,10 +952,16 @@ th {
 
 }
 
+
+.contact-details #Call-Us:hover{
+background-color: #F66709;}
+
 .contact-details #Call-Us a {
   text-decoration: none;
   color: white;
 }
+
+
 
 #Email-form {
   background-color: #006768;
@@ -1012,17 +1019,20 @@ h2 {
 .Product-name {
   font-size: 1.5rem;
   font-weight: 800;
+  color: #313131;
 
 }
 
 .brand {
   font-size: 1rem;
   font-weight: 600;
+  color: #464545;
 }
 
 .price {
   font-size: 1.1rem;
   font-weight: 700;
+
 }
 
 
@@ -1146,6 +1156,7 @@ h2 {
   border: 1px solid rgb(229, 222, 222);
   border-radius: 1rem;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 
@@ -1156,7 +1167,13 @@ h2 {
 
 .product-box-container .box a {
   text-decoration: none;
-  color: rgb(46, 44, 44);
+  color: rgb(77, 76, 76);
+  font-size: 1rem;
+}
+
+.product-box-bottom .price{
+  color: rgb(73, 74, 75);
+  font-size: 0.9rem;
 }
 
 
