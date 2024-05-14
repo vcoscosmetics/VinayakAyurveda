@@ -170,6 +170,7 @@
 
     .child1 {
         font-size: 1.2rem;
+        text-align: justify;
     }
 
     .child4 {
@@ -268,7 +269,7 @@
 
 
     html {
-        font-size: 60%;
+        font-size: 80%;
     }
 
     .navbar {
@@ -389,7 +390,7 @@
     }
 
     .mySlides img {
-        height: 20rem;
+        height: 15rem;
     }
 
     .secondSection {
