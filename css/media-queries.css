@@ -8,8 +8,6 @@
 
     }
 
-
-
     .child10{
         font-size: 1.5rem;
     }
@@ -88,7 +86,7 @@
 
 @media only screen and (max-width : 1024px) {
     html {
-        font-size: 75%;
+        font-size: 65%;
     }
 
     #index-PCD {
