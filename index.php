@@ -23,6 +23,9 @@
             <a>+91 9870579944, +91 9667661243, +91 9667681691</a>
           </div>
         </div>
+        <?php 
+        include "topbar.php"
+        ?>
   
         <div class="navbar h-nav">
           <img src="logo.jpg" alt="Logo" class="logo" />
