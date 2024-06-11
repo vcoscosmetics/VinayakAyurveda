@@ -19,6 +19,9 @@
         include "topbar.php"
         ?>
 
+<?php 
+        include "header.php"
+        ?>
   
         
       </header>
